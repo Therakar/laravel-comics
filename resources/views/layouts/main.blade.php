@@ -20,6 +20,9 @@
     {{-- header --}}
     @include('partials.header')
 
+    {{-- hero --}}
+    @include('partials.hero')
+
     {{-- main --}}
     <main>
         @yield('content')
