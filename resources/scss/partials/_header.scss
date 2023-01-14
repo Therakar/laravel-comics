@@ -1,0 +1,28 @@
+.container{ 
+    padding: 10px 0;
+}
+
+.logo{
+    width: 80px;
+}
+
+a{
+    display: inline-block;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+li:hover{
+    color: var(--primary-color); 
+}
+
+.top-header{
+    background-color: var(--primary-color);
+
+    h6{
+        margin: 0;
+        margin-left: 50px;
+        color: white;
+    }
+}

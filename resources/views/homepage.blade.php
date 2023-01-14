@@ -6,6 +6,7 @@
 
 @section('content')
     <section>
-            Lista film
+        
     </section>    
 @endsection
+
