@@ -1,0 +1,66 @@
+main{
+    background-color: var(--darker-secondary-color);
+  }
+  .container{
+    max-width: 81.25rem;
+    color: #fff;   
+  }
+
+
+.container{
+    flex-wrap: wrap;
+    position: relative;
+    .card-custom{
+        width: calc(100% / 6);
+        flex-wrap: wrap;
+        padding: 20px;
+        margin-top: 10px;
+        
+        img{
+            object-fit:cover;
+            object-position: top;
+            width: 11.875rem;
+            height: 11.875rem;
+        }
+
+        h5{
+            font-weight: 600;
+            margin-top: 10px;
+
+        }
+    }
+
+    .btn-container{
+        width: 100%;
+        .btn-load-more{
+        background-color: var(--primary-color);
+        color: #fff;
+        font-weight: 600;
+        width: 11.25rem;
+        border: 0;
+        padding: 5px;
+
+            &:hover{
+                filter: grayscale(0.5);
+                cursor: pointer;
+            }
+        }
+    }
+    .label{
+    width: 15.625rem;
+    height: 50px;
+    background-color: var(--primary-color);
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    top: -25px;
+    font-size: 1.625rem;
+    padding: auto;
+    border-radius: 0px;
+
+    h4{
+        margin-bottom: 0;
+    }
+    
+}
+}
