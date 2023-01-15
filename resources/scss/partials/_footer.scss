@@ -1,4 +1,4 @@
-footer{
+#footer-top{
     background-image: url(/resources/img/footer-bg.jpg);
     background-size: cover;
     padding-top: 20px;
@@ -58,4 +58,31 @@ footer{
         display: block;
         
     }
+}
+
+
+#footer-bottom{
+    
+    background-color: var(--secondary-color);
+    .sign-up-btn{
+        color: #fff;
+        border: 1px solid var(--primary-color);
+    }
+    
+    a{
+        display: inline-block;
+        padding: 15px 15px;
+        text-decoration: none;
+        color:var(--primary-color);
+        font-size: 16px;
+    }
+
+    li{
+        margin-right: 10px;
+
+        img{
+            max-width: 30px;
+        }
+    }
+
 }
