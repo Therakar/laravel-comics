@@ -33,30 +33,28 @@
 
         <section class="container d-flex justify-content-between align-items-center px-0">
                     <ul class="d-flex px-0">
-                    <li class="d-flex align-items-center justify-content-center">
+                    <li class=" main-btm-cards  d-flex align-items-center justify-content-center">
                         <img src="{{Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="">
                         <span>DIGITAL COMICS</span>
                     </li>
-                    <li class="d-flex align-items-center justify-content-center">
+                    <li class=" main-btm-cards d-flex align-items-center justify-content-center">
                         <img src="{{Vite::asset('resources/img/buy-comics-merchandise.png')}}" alt="">
                         <span>DC MERCHANDISE</span>
                     </li>
-                    <li class="d-flex align-items-center justify-content-center">
+                    <li class=" main-btm-cards d-flex align-items-center justify-content-center">
                         <img src="{{Vite::asset('resources/img/buy-comics-shop-locator.png')}}" alt="">
                         <span>SUBSCRIPTION</span>
                     </li>
-                    <li class="d-flex align-items-center justify-content-center">
+                    <li class=" main-btm-cards d-flex align-items-center justify-content-center">
                         <img src="{{Vite::asset('resources/img/buy-comics-subscriptions.png')}}" alt="">
                         <span>COMIC SHOP LOCATOR</span>
                     </li>
-                    <li class="d-flex align-items-center justify-content-center">
+                    <li class=" main-btm-cards d-flex align-items-center justify-content-center">
                         <img src="{{Vite::asset('resources/img/buy-dc-power-visa.svg')}}" alt="">
                         <span>DC POWER VISA</span>
                     </li>
                     </ul>
                 </div>
-
-
             </section>    
 @endsection
 

@@ -2,7 +2,16 @@
     <div class="top-header">
         <div class="container top-links d-flex justify-content-end py-0">
             <small><a class="py-0" href="#">DC POWER℠ VISA&#174</a></small> 
-            <small><a class="py-0" href="#">ADDITIONAL DC SITES</a></small>
+            <small>
+                <a class="dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    ADDITIONAL DC SITES
+                </a>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li><button class="dropdown-item" type="button">TBD</button></li>
+                    <li><button class="dropdown-item" type="button">TBD</button></li>
+                    <li><button class="dropdown-item" type="button">TBD</button></li>
+                  </ul>
+            </small>
         </div>
     </div>
     <div class="container d-flex justify-content-between align-items-center">
@@ -21,10 +30,10 @@
                 <li><a href="#">VIDEOS</a></li>
                 <li><a href="#">FANS</a></li>
                 <li><a href="#">NEWS</a></li>
-                <li class="d-flex align-items-center dropdown"><a class="btn dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <li><a class="dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     SHOP
                 </a>
-                  <ul class="dropdown-menu">
+                  <ul class="dropdown-menu dropdown-menu-start">
                     <li><button class="dropdown-item" type="button">TBD</button></li>
                     <li><button class="dropdown-item" type="button">TBD</button></li>
                     <li><button class="dropdown-item" type="button">TBD</button></li>
