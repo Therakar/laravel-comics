@@ -1,8 +1,8 @@
 <header>
     <div class="top-header">
-        <div class="container d-flex justify-content-end">
-            <h6>Dc Power Visa</h6>
-            <h6>Link</h6>
+        <div class="container top-links d-flex justify-content-end py-0">
+            <small><a class="py-0" href="#">DC POWER℠ VISA&#174</a></small> 
+            <small><a class="py-0" href="#">ADDITIONAL DC SITES</a></small>
         </div>
     </div>
     <div class="container d-flex justify-content-between align-items-center">

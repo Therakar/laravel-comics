@@ -4,6 +4,7 @@
 @import 'partials/reset';
 @import 'partials/mixin';
 @import 'partials/variables';
+@import 'partials/typography';
 @import 'partials/header';
 @import 'partials/hero';
 @import 'partials/footer';
@@ -11,6 +12,3 @@
 @import 'partials/homepage';
 
 
-body {
-    font-family: 'Open Sans', sans-serif;
-}
